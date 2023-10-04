@@ -81,7 +81,7 @@ spec:
             roleArnSelector:
               matchControllerRef: true
               matchLabels:
-                role: controlplane
+                role: abc-offsite
             vpcConfig:
               - endpointPrivateAccess: true
                 endpointPublicAccess: true
